@@ -6,7 +6,6 @@ class Settings {
     minHeight: 911,
     maxHeight: 1620,
   };
-  public readonly lang: { [key: string]: string } = langs.ru;
   private _mobile: boolean = false;
 
   public isMobile(): boolean {
